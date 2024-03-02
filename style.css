@@ -1,21 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-    -webkit-font-smoothing:antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 
-:root{
+:root {
     --almost-white: #FFFDFA;
-    --dark-blue:#00001A;
-    --gunmetal:#5E607A;
-    --vermillion:#F15D51;
+    --dark-blue: #00001A;
+    --gunmetal: #5E607A;
+    --vermillion: #F15D51;
     --yellow: #E9AA52;
-    --silver:|#C5C6CE;
+    --silver: #C5C6CE;
 }
 
-body{
+body {
     padding: 1.75rem 1rem;
     background-color: var(--almost-white);
 }
@@ -29,19 +29,19 @@ body{
 
 .header-mobile button {
     border: none;
-    background: none;   
+    background: none;
 }
 
 .section1 {
     margin-bottom: 4rem;
 }
 
-.section1 img{
+.section1 img {
     width: 100%;
     margin-bottom: 1.5rem;
 }
 
-.section1 h1{
+.section1 h1 {
     font-size: 2.5rem;
     line-height: 100%;
     color: var(--dark-blue);
@@ -55,7 +55,7 @@ body{
     margin-bottom: 1.5rem;
 }
 
-.section1 button{
+.section1 button {
     padding: 0.75rem 2rem;
     background-color: var(--vermillion);
     border: none;
@@ -74,30 +74,61 @@ body{
 
 }
 
-.bb{
+.bb {
     border-bottom: 1px solid var(--gunmetal);
     margin-bottom: 1.75rem;
     padding-bottom: 1.75rem;
 }
 
-.section2 h2{
+.section2 h2 {
     color: var(--yellow);
     font-size: 2rem;
     line-height: 100%;
     margin-bottom: 2.2rem;
 }
 
-.section2 h3{
+.section2 h3 {
     color: var(--almost-white);
     font-size: 1.25rem;
-    line-height:1.5rem;
+    line-height: 1.5rem;
     font-weight: 800;
     margin-bottom: 0.5rem;
 }
 
-.section2 p{
+.section2 p {
     color: silver;
     font-size: 0.9375rem;
     line-height: 1.625rem;
 }
 
+.section3>div {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.section3 img{
+    max-width: 6.25rem;
+}
+
+.section3 strong{
+    color: var(--silver);
+    font-size: 2rem;
+    line-height: 100%;
+}
+
+.section3 h2{
+    color: var(--dark-blue);
+    font-size: 1.125rem;
+    font-weight: 800;
+    line-height: 1.5rem;
+    margin-block: 0.6rem;
+}
+
+.section3 p{
+    font-size: 0.9375rem;
+    line-height: 1.625rem;
+    color: var(--gunmetal);
+}
