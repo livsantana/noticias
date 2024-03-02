@@ -184,9 +184,9 @@ main {
     margin-block: 0.6rem;
 }
 
-.section3 h2{
+.section3 a{
     text-decoration: none;
-} 
+}
 
 .section3 p {
     font-size: 0.9375rem;
@@ -255,7 +255,6 @@ main {
         display: flex;
         grid-column: 1/4;
     }
-
 
     main {
         display: grid;
